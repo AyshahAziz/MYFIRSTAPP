@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myfirstapp.MainActivity"
+    tools:layout_editor_absoluteY="0dp"
+    android:background="@android:color/holo_green_light"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YourLondon!"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-bold"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07891 564 354"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-bold"
+        android:textColor="@android:color/background_dark"
+        android:padding="20dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+    android:textSize="25sp"
+        android:text="Somewhere for you to start exploring what your city has to offer"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ScreenShot"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+
+       />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
